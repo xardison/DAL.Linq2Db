@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Linq;
+using DAL.linq2db.StoredProcedure;
 using LinqToDB;
 using LinqToDB.Data;
 

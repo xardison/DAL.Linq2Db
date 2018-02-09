@@ -5,7 +5,7 @@ using DAL.linq2db.Filter;
 using LinqToDB;
 using LinqToDB.Linq;
 
-namespace DAL.linq2db.Internal
+namespace DAL.linq2db
 {
     public static class OrmExtensions
     {
@@ -33,12 +33,10 @@ namespace DAL.linq2db.Internal
         {
             return StrAny + prop;
         }
-
         public static string MatchEnd(this string prop)
         {
             return prop + StrAny;
         }
-
         public static string MatchAny(this string prop)
         {
             var pattern = Regex.Replace(StrAny + prop + StrAny, "[,*]+", StrAny);

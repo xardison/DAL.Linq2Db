@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace DAL.linq2db.Internal
+namespace DAL.linq2db.StoredProcedure
 {
     public class OrmParameter
     {

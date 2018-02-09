@@ -1,4 +1,6 @@
-﻿namespace DAL.linq2db.Internal
+﻿using DAL.linq2db.Internal;
+
+namespace DAL.linq2db
 {
     public interface IService
     {

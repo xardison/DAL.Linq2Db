@@ -1,4 +1,4 @@
-﻿namespace DAL.linq2db.Internal
+﻿namespace DAL.linq2db.UnitOfWork
 {
     public interface IUnitOfWorkFactory
     {

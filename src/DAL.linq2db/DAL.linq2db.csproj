@@ -45,9 +45,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DalParams.cs" />
@@ -55,18 +53,18 @@
     <Compile Include="Filter\IFilter.cs" />
     <Compile Include="Filter\IPager.cs" />
     <Compile Include="Filter\Pager.cs" />
-    <Compile Include="Internal\ConnectionStringManager.cs" />
+    <Compile Include="ConnectionStringManager.cs" />
     <Compile Include="Internal\DbHelper.cs" />
-    <Compile Include="Internal\Orm.cs" />
-    <Compile Include="Internal\UnitOfWork.cs" />
-    <Compile Include="Internal\ServiceBase.cs" />
-    <Compile Include="Internal\OrmDataType.cs" />
-    <Compile Include="Internal\OrmExtensions.cs" />
+    <Compile Include="Internal\OrmLinqToDb.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
+    <Compile Include="ServiceBase.cs" />
+    <Compile Include="StoredProcedure\OrmDataType.cs" />
+    <Compile Include="OrmExtensions.cs" />
     <Compile Include="Internal\OrmLinqToDbBase.cs" />
     <Compile Include="Internal\OrmMappingSchema.cs" />
-    <Compile Include="Internal\OrmParameter.cs" />
-    <Compile Include="Internal\OrmProcedure.cs" />
-    <Compile Include="Internal\UnitOfWorkFactory.cs" />
+    <Compile Include="StoredProcedure\OrmParameter.cs" />
+    <Compile Include="StoredProcedure\OrmProcedure.cs" />
+    <Compile Include="UnitOfWork\UnitOfWorkFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Data;
+using DAL.linq2db.Internal;
 
-namespace DAL.linq2db.Internal
+namespace DAL.linq2db.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {

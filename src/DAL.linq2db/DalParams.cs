@@ -4,10 +4,6 @@
     {
         public const int DefaultPageSize = 100;
 
-        public const string DbDev = "dev";
-        public const string DbTest = "test";
-        public const string DbMain = "main";
-
         static DalParams()
         {
             LinqToDB.Common.Configuration.Linq.AllowMultipleQuery = true;

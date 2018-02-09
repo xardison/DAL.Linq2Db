@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
+using DAL.linq2db.StoredProcedure;
 using LinqToDB;
 using LinqToDB.Data;
 
